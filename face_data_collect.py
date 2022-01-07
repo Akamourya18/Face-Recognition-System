@@ -19,7 +19,7 @@ face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_fronta
 
 skip = 0
 face_data = []
-dataset_path = 'D:\Machine-Learning\Face recognition/data/'
+dataset_path = 'D:\ML Projects\Face-Recognition-System/data/'
 file_name = input("Enter the name of the person : ")
 while True:
 	ret,frame = cap.read()
