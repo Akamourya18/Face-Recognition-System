@@ -49,7 +49,7 @@ cap = cv2.VideoCapture(0)
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_frontalface_alt.xml")
 
 skip = 0
-dataset_path = 'D:\Machine-Learning\Face recognition/data/'
+dataset_path = "D:\ML Projects\Face-Recognition-System/data/"
 
 face_data = [] 
 labels = []
